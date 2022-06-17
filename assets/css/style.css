@@ -1,0 +1,49 @@
+body {
+    background-image: url(/assets/images/IMG_9050-2.jpg);
+    background-color: rgb(67, 60, 56);
+    color: #ffffff;
+    font-family: 'Playfair Display SC', serif;
+}
+
+
+
+/* media queries */
+@media screen and (min-width: 1024px) {
+    body {
+        background-position-y: top;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        background-position-y: -800px;
+        background-position-x: right;
+    }
+    nav {
+        overflow: hidden;
+        text-decoration: none;
+    }
+    .nav-links {
+        display: none;
+        font-family: 'Lato', sans-serif;
+        padding: 20px;
+    }
+    .logo {
+    position: fixed;
+    font-size: 80px;
+    margin: 0px 40px;
+    text-decoration: none;
+    color: #ffffff;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    body {
+        background-position-y: top;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position-y: -600px;
+        background-position-x: -300px;
+    }
+}
+@media screen and (max-width: 767px) {
+
+}
